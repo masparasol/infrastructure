@@ -82,3 +82,9 @@
   tags: [cloud]
   roles:
     - nextcloud-docker
+
+- name: power
+  hosts: power
+  tags: [power]
+  roles:
+    - smartpi
